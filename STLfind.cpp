@@ -64,12 +64,10 @@ void Time(std::function<int()> Function)
 	printf("Value = %i\n Used time: %i us", Value, duration);
 }
 
-//std::function, return std::optional<int>
 
 int main()
 {
-	std::vector<int> Test;//reserve 1
-	//srand(time(0));
+	std::vector<int> Test;
 	Test.resize(5000000);
 
 	int Input;
